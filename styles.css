@@ -1,2 +1,6 @@
-/* added css file */
-
+.navbar a {
+    font-size: 100px;
+    color: red;
+    width: 396px;
+    height: 60px;
+}
