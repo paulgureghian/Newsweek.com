@@ -1,41 +1,93 @@
+body {
+ padding: 0;
+ margin: 0;
+ background: #f2f6e9;
+}
+
+.page-header {
+ margin-top: 70px;
+ background: red;
+ display: flex;
+}
+
+#header-date {
+ color: white;
+}
+
+.header-brand {
+ color: white;
+ list-style: none; 
+ text-decoration: none;
+}
+
+.header-brand:hover {
+ color: white;
+}
+
+.header {
+    list-style: none;
+}
+
+#newsweek-header-title a:hover {
+ background-color: white;
+}
+
 .navbar {
-    background: linear-gradient(red 50%, white 50%);
-    height: 100px;
-    border-bottom: 1px solid gray;
+ background: white;
+ height: 100px;
+ border-bottom: 1px solid gray;
 }
 
 .nav-link {
-  color: black;
+ margin-right: 1em !important;
+ color: black;
+cursor: pointer;
 }
 
 .nav-link:hover {
-    color: red;
+ color: red;
+}
+
+.navbar-collapse {
+ justify-content: flex-end;
 }
 
 p {
-    color: white;
+ color: white;
 }
 
 .navbar-brand {
-    color: white;
+ color: white;
+ cursor: pointer;
 }
 
 .signin {
-    color: white;
+ color: white;
 }
 
 .navbar-brand:hover {
-    color: white;
+ color: white;
 }
 
 .signin:hover {
-    color: white;
+ color: white;
 }
 
 .subscribe {
-    color: red;
+ background: white;
+ color: red;
 }
 
 .subscribe:hover {
-    color: red;
+ color: red;
 }
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: none;
+}
+
+
