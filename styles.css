@@ -12,9 +12,16 @@ body {
 
 #header-date {
  color: white;
+ padding-top: 20px;
+ margin-top: 20px;
+ margin-left: 20px;
 }
 
 .header-brand {
+ font-size: 20px;
+ font-family: Arial,Helvetica,serif;
+ margin-right: 20px;
+ margin-left: 480px;
  color: white;
  list-style: none; 
  text-decoration: none;
@@ -25,7 +32,8 @@ body {
 }
 
 .header {
-    list-style: none;
+ list-style: none;
+ display: flex;
 }
 
 #newsweek-header-title a:hover {
@@ -36,6 +44,10 @@ body {
  background: white;
  height: 100px;
  border-bottom: 1px solid gray;
+}
+
+.nav-item {
+ border: 1px solid gray;
 }
 
 .nav-link {
@@ -63,6 +75,8 @@ p {
 
 .signin {
  color: white;
+ margin-left: 470px;
+ margin-right: 20px;
 }
 
 .navbar-brand:hover {
