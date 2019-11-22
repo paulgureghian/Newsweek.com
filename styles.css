@@ -1,0 +1,41 @@
+.navbar {
+    background: linear-gradient(red 50%, white 50%);
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.signin {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.signin:hover {
+    color: white;
+}
+
+.subscribe {
+    color: red;
+}
+
+.subscribe:hover {
+    color: red;
+}
