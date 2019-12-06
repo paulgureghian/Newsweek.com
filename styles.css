@@ -1,105 +1,103 @@
 body {
-  padding: 0;
   margin: 0;
-  background: #f2f6e9;
+  padding: 0;
+  background-color: gray;
 }
 
-.page-header {
-  margin-top: 70px;
-  background: red;
-  display: flex;
-}
-
-#header-date {
-  color: white;
-  padding-top: 20px;
+.nav-top {
   margin-top: 20px;
   margin-left: 20px;
-}
-
-.header-brand {
-  font-size: 20px;
-  font-family: Arial, Helvetica, serif;
   margin-right: 20px;
-  margin-left: 480px;
-  color: white;
-  list-style: none;
-  text-decoration: none;
+  background-color: red;
 }
 
-.header-brand:hover {
-  color: white;
-}
-
-.header {
-  list-style: none;
+.nav-top-ul {
   display: flex;
+  height: 100px;
+  list-style: none;
 }
 
-a {
+.nav-top-ul a:hover {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
+.nav-top-ul-item {
+  padding-top: 50px;
 }
 
-#newsweek-header-title a:hover {
+#date {
+  color: white;
+  padding-top: 50px;
+}
+
+#newsweek {
+  color: white;
+  padding-left: 370px;
+  padding-right: 440px;
+}
+
+#signin {
+  color: white;
+  padding-right: 40px;
+}
+
+#subscribe {
+  color: red;
   background-color: white;
 }
 
-.navbar {
-  background: white;
-  height: 100px;
+.nav-bottom {
+  margin-left: 20px;
+  margin-right: 20px;
   border-bottom: 1px solid gray;
 }
 
-.nav-item {
-  border: 2px solid gray;
+.nav-bottom-ul {
+  display: flex;
+  height: 50px;
+  list-style: none;
 }
 
-.nav-link {
-  margin-right: 1em !important;
+.nav-bottom-ul a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-bottom-ul-item {
+  padding-top: 15px;
+  padding-right: 40px;
+  border-left: 1px solid gray;
+}
+
+.nav-bottom-link {
   color: black;
-  cursor: pointer;
 }
 
-.nav-link:hover {
+.featured-stories {
+  margin-left: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.featured-stories h3 {
+  color: black;
+}
+
+.featured-stories a:hover {
   color: red;
 }
 
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
-p {
-  color: white;
-}
-
-.navbar-brand {
-  color: white;
-  cursor: pointer;
-}
-
-.signin {
-  color: white;
-  margin-left: 470px;
-  margin-right: 20px;
-}
-
-.navbar-brand:hover {
-  color: white;
-}
-
-.signin:hover {
-  color: white;
-}
-
-.subscribe {
-  background: white;
+.featured-stories-link {
   color: red;
 }
 
-.subscribe:hover {
+.category h6 {
+  width: 60px;
+  padding-left: 6px;
+  padding-right: 5px;
   color: red;
+  background-color: lightgray;
+}
+
+.category a:hover {
+  text-decoration: none;
 }
