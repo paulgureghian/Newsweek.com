@@ -2,21 +2,18 @@
 <html lang="en">
   <head>
     <title>Newsweek.com</title>
-
     <meta name="Author" content="Paul A. Gureghian" />
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Archived Newsweek.com webpage clone" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="styles.css" type="text/css" rel="stylesheet" />
+
     <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
 
@@ -27,165 +24,263 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <div class="nav-top">
-          <ul class="nav-top-ul">
-            <li><h6 id="date">Tue, Nov 19, 2019</h6></li>
-
-            <li class="nav-top-ul-item">
-              <a
-                class="nav-top-link"
-                id="newsweek"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/"
-                >Newsweek</a
-              >
-            </li>
-
-            <li class="nav-top-ul-item">
-              <a
-                class="nav-top-link"
-                id="signin"
-                href="https://web.archive.org/web/20191119142201/https://subscription.newsweek.com/auth"
-                >SIGN IN</a
-              >
-            </li>
-
-            <li class="nav-top-ul-item">
-              <a
-                class="nav-top-link"
-                id="subscribe"
-                href="https://web.archive.org/web/20191119142201/https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&utm_medium=top-nav&utm_campaign=subscribe-button#12weeks"
-                >SUBSCRIBE ></a
-              >
-            </li>
-          </ul>
+    <header class="page-header mb-4">
+      <div
+        class="header-top d-flex flex-row justify-content-around align-items-center w-100"
+      >
+        <time datetime="2019-10-31" class="d-none d-lg-inline-block"
+          >Thu, Oct 31, 2019</time
+        >
+        <a href="#"><span class="newsweek-white-banner brand"></span></a>
+        <div class="d-flex align-items-center">
+          <a href="#" class="lk lk-2">SIGN IN</a>
+          <a href="#" class="lk lk-3">SUBSCRIBE ></a>
+          <button
+            type="button"
+            id="hamburger-button"
+            class="d-lg-none genericon genericon-menu"
+          ></button>
         </div>
+      </div>
 
-        <div class="nav-bottom">
-          <ul class="nav-bottom-ul">
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/us"
-                >U.S.</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/world"
-                >World</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/business"
-                >Business</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/tech-science"
-                >Tech & Science</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/culture"
-                >Culture</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/newsgeek"
-                >Newsgeek</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/sports"
-                >Sports</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/health"
-                >Health</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/opinion"
-                >Opinion</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <a
-                class="nav-bottom-link"
-                href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/vantage"
-                >Vantage</a
-              >
-            </li>
-
-            <li class="nav-bottom-ul-item">
-              <form>
-                <input type="text" class="search" placeholder="Search" />
-              </form>
-              <i class="fas fa-search search-icon"></i>
-            </li>
-          </ul>
-        </div>
+      <nav
+        class="main-navigator w-100 d-none d-lg-flex flex-row justify-content-around align-content-center"
+      >
+        <form
+          action="/search"
+          method="GET"
+          class="d-flex flex-row justify-content-start align-items-center order-2"
+        >
+          <input type="text" name="query" placeholder="Search" />
+          <button
+            type="submit"
+            class="magnifying-glass-icon"
+            title="Search"
+          ></button>
+        </form>
+        <ul class="w-100 d-flex flex-row justify-content-around">
+          <li><a href="#">U.S.</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Tech & Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Opinion</a></li>
+          <li><a href="#">Vantage</a></li>
+        </ul>
       </nav>
     </header>
+  
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1">
+          <section class="featured-stories">
+            <h2>FEATURED STORIES</h2>
 
-    <div class="featured-stories">
-      <article>
-        <div class="wrap">
-          <div class="category">
-            <a
-              href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/tv/world"
-              ><h6>World</h6></a
-            >
-          </div>
-          <p>FEATURED STORIES</p>
-          <a
-            class="featured-stories-link"
-            href="https://web.archive.org/web/20191119142201/https://www.newsweek.com/trump-administration-asylum-agreements-safe-third-country-u-s-border-1472630"
-          >
-            <img src="images/asylum-seeker.png" alt="asylum-seeker"
-          /></a>
+            <article class="featured-stories-entry">
+              <div class="picture-frame">
+              <div class="picture-frame-image">
+                <a href="#">
+                  <picture>
+                    <img class="img-fluid" src="images/001.webp" alt="Featured Story">
+                  </picture>
+                </a>
+              </div>
+              <div class="picture-frame-overlay"><a href="#">SPORTS</a></div>
+              </div>
+              <h3><a href="#">World Series: All records the Nationals Broke to Win Historic First Title</a></h3> 
+              <p>The National's defeated the Astros in Game 7 in Houston to become the first team in World Series history to win four games on the road.</p>
+            </article>
 
-          <a
-            class="featured-stories-link"
-            href=" https://web.archive.org/web/20191119142201/https://www.newsweek.com/trump-administration-asylum-agreements-safe-third-country-u-s-border-1472630"
-          >
-            <h3>New U.S. Rule to Force Asylum</h3>
-            <h3>Seekers to Seek Refuge Elsewhere</h3></a
-          >
-          <div class="summary">
-            The measure seeks to force asylum seekers to seek <br />
-            refuge in other countries, even if they did not transit<br />
-            through them.
-          </div>
+            <article class="featured-stories-entry">
+              <div class="picture-frame">
+                <div class="picture-frame-image">
+                  <a href="#">
+                    <picture>
+                      <img class="img-fluid" src="images/002.webp" alt="Featured Story">
+                    </picture>
+                  </a>
+                </div>
+                <div class="picture-frame-overlay"><a href="#">U.S.</a></div>
+              </div>
+              <h3><a href="#">More people think Trump will win 2020 over Democratic nominee: Poll</a></h3>
+              <p>The survey also showed that support for Trump in the 2020 election has increased from a similar poll in August.</p>
+            </article>
+
+            <article class="featured-stories-entry">
+              <div class="picture-frame">
+                <div class="picture-frame-image">
+                  <a href="#">
+                    <picture>
+                      <img class="img-fuid" src="images/003.webp" alt="Feaured Story">
+                    </picture>
+                  </a>
+                </div>
+                <div class="picture-frame-overlay"><a href="#">U.S.</a></div>
+              </div>
+              <h3><a href="#">Behind Coal's decline: Cheap Natural Gas threatens industry</a></h3>
+              <p>While an average annual capacity of 5.6 GW was retired each year President Barack Obama was in office, 9.6 GW has been retired each year under President Donald Trump, Rhodium Group, an independent research firm, told Newsweek.</p>
+            </article>
+          
+            <article class="featured-stories-entry">
+                <div class="picture-frame">
+                  <div class="picture-frame-image">
+                    <a href="#">
+                      <picture>
+                        <img class="img-fluid" src="images/ad_1.webp" alt="Featured Story">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="picture-frame-overlay"><a href="#">SURVEY</a></div>
+                </div>
+                <h3><a href="#">Best Customer Service 2020</a></h3>
+                <p>For the second straight year in a row, we worked with Statista to collect and analyze data across 160 retail categories.</p>
+            </article>
+          </section>
+                
+          <aside class="advertisements">
+            <article class="advertisement">
+              <div class="category">SPONSORED INSIGHT</div>
+              <div class="info">
+                <h3><a href="#">EQUIS Accredited Business Schools 2019</a></h3> 
+                <div class="summary">
+                  It is imporatnt to check whether a school is accredited by a credible global accreditation body 
+                  and meets internationally agreed quality standards. EQUIS gives you that peace of mind.</div>      
+              </div>
+            </article>          
+
+            <article class="advertisement">
+              <div class="category">SWEEPSTAKES</div>
+              <div class="info">
+                <h3><a href="#">Win $1,000 Holiday Cash</a></h3>
+                <div class="summary">
+                  Enter our Holiday Cash Sweepstakes for a chance to unwrap a $1,000 grand prize!
+                  Five second place winners will each receive a free 12-month digital subscription to Newsweek.</div>
+              </div>
+            </article>
+
+            <article class="advertisement">
+              <div class="category">SPONSORED INSIGHT</div>
+              <div class="info">
+                <h3><a href="#">Why Haven't You Thought About Coding?</a></h3>
+              <div class="summary">
+                The industry demand for coders is skyrocketing. It is increasingly recognized as a rewarding, future-proof and flexible vocation
+                and it's easier to jump on the train than you might think. Find out more...</div>
+              </div>
+            </article> 
+
+            <article class="advertisement">
+              <div class="category">SPONSORED INSIGHT</div>
+              <div class="info">
+                <h3><a href="#">Which Global Universities are Leading the Way in 2019?</a></h3>
+                <div class="summary">
+                    The world is shrinking and the concept of a "global marketplace" has never been more appreciable. 
+                    Which universities are best preparing tomorrow's international thought leaders?</div>
+              </div>
+            </article>
+          </aside>
         </div>
-      </article>
-    </div>
+
+        <div class="col-12 col-md-7 col-lg-5 order-1 order-md-2">
+          <div class="row">
+            <div class="col-12 order-1">
+              <article class="top-story">
+                <h2>TOP STORY</h2> 
+
+                <div class="picture-frame">
+                  <div class="picture-frame-image">
+                    <a href="#">
+                      <picture>
+                        <img class="img-fluid" src="images/top_story.jpg" alt="Top Story">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="picture-frame-overlay"><a href="#">POLITICS</a></div>
+                </div>
+
+                <h3><a href="#">Two Democrats Break With Party in Impeachment Vote</a></h3>
+                <p>Meet Representatives Jeff Van Drwe and Colin Peterson, Democratic lawmakers who won Trump districts in 2018.</p>
+              </article>
+            </div>
+
+            <div class="col-12 order-3 order-md-2">
+              <section class="culture-and-travel">
+                <h2>CULTURE & TRAVEL</h2>
+
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <article class="culture-and-travel-entry">
+                      <a href="#">
+                        <picture>
+                          <img class="img-fluid" src="images/hong_kong.webp" alt="Culture & Travel">
+                        </picture>
+                      </a>
+                      <div class="info">
+                        <h3><a href="#">Is It Safe to Travel to Hong Kong During Protests? Here's What to Consider</a></h3>
+                        <p>A drop in tourism has thinned the crowds, but locals assert the city is safer than you would think.</p>
+                        <div class="tags">
+                          <span class="tag"><a href="#">Hong Kong</a></span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <article class="culture-and-travel-entry">
+                      <a href="#">
+                        <picture>
+                          <img class="img-fluid" src="images/witches.webp" alt="Culture & Travel">
+                        </picture>
+                      </a>
+                      <div class="info">
+                        <h3><a href="#">What the History of Witches Reveals About Our Own Fears</a></h3>
+                        <p>Our fascination with the witch throughout the ages tells us more about ourselves than the history of Halloween.</p>
+                        <div class="tags">
+                          <span class="tag"><a href="#">Witches</a></span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+
+
+
+
+            </main>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
   </body>
 </html>
