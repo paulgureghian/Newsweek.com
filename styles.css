@@ -4,100 +4,60 @@ body {
   background-color: gray;
 }
 
-.nav-top {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: red;
+.page-header {
+    color: white;
+    border-bottom: 2px solid gray;
+    margin-top: 40px;
+    background-color: red;
 }
 
-.nav-top-ul {
-  display: flex;
-  height: 100px;
-  list-style: none;
-}
-
-.nav-top-ul a:hover {
+.page-header .lk {
   text-decoration: none;
 }
 
-.nav-top-ul-item {
-  padding-top: 50px;
-}
-
-#date {
+.page-header .lk-2 {
   color: white;
-  padding-top: 50px;
+  font-weight: bold;
+  padding: 10px 8px;
 }
 
-#newsweek {
-  color: white;
-  padding-left: 370px;
-  padding-right: 440px;
-}
-
-#signin {
-  color: white;
-  padding-right: 40px;
-}
-
-#subscribe {
+.page-header .lk-3 {
   color: red;
+  padding: 4px 8px;
+  font-weight: bold;
   background-color: white;
 }
 
-.nav-bottom {
-  margin-left: 20px;
-  margin-right: 20px;
-  border-bottom: 1px solid gray;
+.newsweek-white-banner {
+  display: inline-block;
+  width: 396px;
+  height: 60px;
+  background: url(images/newsweek-white.svg);
 }
 
-.nav-bottom-ul {
-  display: flex;
-  height: 50px;
+.main-navigator{
+  background-color: white;
+}
+
+.main-navigator li {
   list-style: none;
+  border-right: 1px solid #ddd;
+  margin-top: 10px;
+  font-size: 21px; 
 }
 
-.nav-bottom-ul a:hover {
-  color: red;
+.main-navigator li a:hover {
   text-decoration: none;
+  color: red;
 }
 
-.nav-bottom-ul-item {
-  padding-top: 15px;
-  padding-right: 40px;
-  border-left: 1px solid gray;
-}
-
-.nav-bottom-link {
+.main-navigator a {
   color: black;
+  font-weight: bold;
 }
 
-.featured-stories {
-  margin-left: 20px;
-  border-bottom: 1px solid gray;
-}
-
-.featured-stories h3 {
-  color: black;
-}
-
-.featured-stories a:hover {
-  color: red;
-}
-
-.featured-stories-link {
-  color: red;
-}
-
-.category h6 {
-  width: 60px;
-  padding-left: 6px;
-  padding-right: 5px;
-  color: red;
-  background-color: lightgray;
-}
-
-.category a:hover {
-  text-decoration: none;
+.magnifying-glass-icon {
+  width: 28px;
+  height: 28px;
+  background: url(images/magnifying-glass.svg);
 }
