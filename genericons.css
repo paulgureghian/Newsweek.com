@@ -73,7 +73,7 @@
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  filter: progid:dximagetransform.microsoft.basicimage(rotation=2);
 }
 
 .genericon-rotate-270 {
@@ -82,7 +82,7 @@
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  filter: progid:dximagetransform.microsoft.basicimage(rotation=3);
 }
 
 .genericon-flip-horizontal {
@@ -117,6 +117,7 @@
 .genericon-aside:before {
   content: "\f101";
 }
+
 .genericon-attachment:before {
   content: "\f416";
 }
