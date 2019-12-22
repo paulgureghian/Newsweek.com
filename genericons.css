@@ -109,91 +109,91 @@
   content: "\f423";
 }
 
-.genericon-activity:before {
+.genericon-activity::before {
   content: "\f508";
 }
 
-.genericon-anchor:before {
+.genericon-anchor::before {
   content: "\f509";
 }
 
-.genericon-aside:before {
+.genericon-aside::before {
   content: "\f101";
 }
 
-.genericon-attachment:before {
+.genericon-attachment::before {
   content: "\f416";
 }
 
-.genericon-audio:before {
+.genericon-audio::before {
   content: "\f109";
 }
 
-.genericon-bold:before {
+.genericon-bold::before {
   content: "\f471";
 }
 
-.genericon-book:before {
+.genericon-book::before {
   content: "\f444";
 }
 
-.genericon-bug:before {
+.genericon-bug::before {
   content: "\f50a";
 }
 
-.genericon-cart:before {
+.genericon-cart::before {
   content: "\f447";
 }
 
-.genericon-category:before {
+.genericon-category::before {
   content: "\f301";
 }
 
-.genericon-chat:before {
+.genericon-chat::before {
   content: "\f108";
 }
 
-.genericon-checkmark:before {
+.genericon-checkmark::before {
   content: "\f418";
 }
 
-.genericon-close:before {
+.genericon-close::before {
   content: "\f405";
 }
 
-.genericon-close-alt:before {
+.genericon-close-alt::before {
   content: "\f406";
 }
 
-.genericon-cloud:before {
+.genericon-cloud::before {
   content: "\f426";
 }
 
-.genericon-cloud-download:before {
+.genericon-cloud-download::before {
   content: "\f440";
 }
 
-.genericon-cloud-upload:before {
+.genericon-cloud-upload::before {
   content: "\f441";
 }
 
-.genericon-code:before {
+.genericon-code::before {
   content: "\f462";
 }
 
-.genericon-codepen:before {
+.genericon-codepen::before {
   content: "\f216";
 }
 
-.genericon-cog:before {
+.genericon-cog::before {
   content: "\f445";
 }
 
-.genericon-collapse:before {
+.genericon-collapse::before {
   content: "\f432";
 }
 
-.genericon-comment:before {
+.genericon-comment::before {
   content: "\f300";
 }
 
