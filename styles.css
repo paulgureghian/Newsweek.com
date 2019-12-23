@@ -91,3 +91,19 @@ body {
   height: 36px;
   background: url(images/newsweek_orange.svg);
 }
+
+.newsweek-icon {
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  vertical-align: middle;
+  background: url(images/icons_1.png);
+}
+
+.newsweek-stacked-icon {
+  display: inline-block;
+  width: 33px;
+  height: 32px;
+  vertical-align: middle;
+  background: url(images/icons_2.png);
+}
