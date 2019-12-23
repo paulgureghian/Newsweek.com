@@ -4,6 +4,7 @@ The goal of this project was to clone the Newsweek.com website using Twitter's B
 I also used HTML-5 and CSS-3.
 
 The project was built by Paul A. Gureghian: 
+
 https://github.com/paulgureghian
 
 https://twitter.com/paulgureghian
