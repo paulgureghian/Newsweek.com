@@ -75,3 +75,19 @@ body {
   font: bold 17px/16px "Roboto Condensed", sans-serif;
   color: red;
 }
+
+.picture-frame-overlay a {
+  color: red;
+}
+
+.picture-frame-overlay a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.newsweek-orange-footer {
+  display: inline-block;
+  width: 236px;
+  height: 36px;
+  background: url(images/newsweek_orange.svg);
+}
