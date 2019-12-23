@@ -107,3 +107,28 @@ body {
   vertical-align: middle;
   background: url(images/icons_2.png);
 }
+
+.stacked-covers {
+  position: relative;
+  width: 260px;
+  height: 241px;
+}
+
+.previous-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 228px;
+  background: url(images/covers_thumbnails_1.jpg);
+}
+
+.current-cover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 170px;
+  height: 228px;
+  background: url(images/covers_thumbnails_2.jpg);
+}
+
