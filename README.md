@@ -1,5 +1,6 @@
 # Newsweek.com
 The goal of this project was to clone the Newsweek.com website using Twitter's Bootstrap framework.
+
 I also used HTML-5 and CSS-3.
 
 The project was built by Paul A. Gureghian: 
