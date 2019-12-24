@@ -35,6 +35,10 @@ body {
   color: red;
 }
 
+h3 a {
+  color: black;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -180,8 +184,4 @@ h6 {
   width: 170px;
   height: 228px;
   background: url(images/covers_thumbnails_2.jpg);
-}
-
-h3 a {
-  color: black;
 }
