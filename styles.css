@@ -43,11 +43,6 @@ body {
   color: red;
 }
 
-.picture-frame-overlay a:hover {
-  color: red;
-  text-decoration: none;
-}
-
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -103,6 +98,11 @@ h6 {
   padding-right: 6px;
   margin-right: 6px;
   margin-bottom: 6px;
+}
+
+.picture-frame-overlay a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .culture-and-travel-entry h3 a:hover {
