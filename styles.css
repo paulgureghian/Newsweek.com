@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+h3 a {
+  color: black;
+}
+
 a,
 a:hover {
   color: inherit;
@@ -35,9 +39,7 @@ body {
   color: red;
 }
 
-h3 a {
-  color: black;
-}
+
 
 h1 a:hover,
 h2 a:hover,
@@ -66,7 +68,6 @@ h6 {
   background-color: #f4f5f7;
   margin-bottom: 20px;
 }
-
 
 .page-header {
   color: white;
