@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+}
+
 body {
   margin-top: 0;
   padding-top: 0;
