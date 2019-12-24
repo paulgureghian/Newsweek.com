@@ -41,6 +41,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
+  color: #333;
   text-decoration: underline #f72210;
 }
 
@@ -179,4 +180,8 @@ h6 {
   width: 170px;
   height: 228px;
   background: url(images/covers_thumbnails_2.jpg);
+}
+
+h3 a {
+  color: black;
 }
