@@ -91,6 +91,15 @@ h6 {
   margin-bottom: 10px;
 }
 
+.united-states h2 a,
+.world h2 a,
+.business h2 a,
+.tech-and-science h2 a,
+.culture h2 a,
+.sports h2 a {
+  color: #f72210;
+}
+
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -142,15 +151,6 @@ h6 {
   font-size: 22px;
   line-height: 22px;
   text-transform: none;
-}
-
-.united-states h2 a,
-.world h2 a,
-.business h2 a,
-.tech-and-science h2 a,
-.culture h2 a,
-.sports h2 a {
-  color: #f72210;
 }
 
 .page-header {
