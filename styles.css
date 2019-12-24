@@ -16,6 +16,11 @@ body {
   background-color: red;
 }
 
+.lk {
+  font-weight: bold;
+  padding: 10px 8px 10px 8px;
+}
+
 .page-header .lk {
   text-decoration: none;
 }
@@ -136,9 +141,3 @@ body {
   height: 228px;
   background: url(images/covers_thumbnails_2.jpg);
 }
-
-.lk {
-  font-weight: bold;
-  padding: 10px 8px 10px 8px;
-}
-
