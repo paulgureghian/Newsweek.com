@@ -91,6 +91,15 @@ h6 {
   margin-bottom: 10px;
 }
 
+.culture-and-travel-entry .tags a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
