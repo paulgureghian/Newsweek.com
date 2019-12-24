@@ -109,6 +109,10 @@ h6 {
   text-decoration: none;
 }
 
+.culture-and-travel-entry .info {
+  padding: 15px 10px 20px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
