@@ -43,6 +43,11 @@ body {
   color: red;
 }
 
+.picture-frame-overlay a:hover {
+  color: red;
+  text-decoration: none;
+}
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -149,11 +154,6 @@ h6 {
   border-right: 1px solid #ddd;
   margin-top: 10px;
   font-size: 21px;
-}
-
-.picture-frame-overlay a:hover {
-  color: red;
-  text-decoration: none;
 }
 
 .main-navigator li a:hover {
