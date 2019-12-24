@@ -113,6 +113,12 @@ h6 {
   padding: 15px 10px 20px;
 }
 
+.culture-and-travel-entry p {
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39,39,39,0.5);
+  margin-bottom: 10px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
