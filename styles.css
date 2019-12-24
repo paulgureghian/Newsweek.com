@@ -130,6 +130,20 @@ h6 {
   padding-bottom: 11 px;
 }
 
+.united-states h2,
+.world h2,
+.business h2,
+.tech-and-science h2,
+.culture h2,
+.sports h2 {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
