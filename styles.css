@@ -81,6 +81,12 @@ h6 {
   padding-bottom: 14px;
 }
 
+.culture-and-travel-entry h3 {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  margin-bottom: 10px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
