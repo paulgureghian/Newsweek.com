@@ -26,6 +26,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: underline #f72210;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
