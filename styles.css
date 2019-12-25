@@ -203,6 +203,17 @@ h6 {
   grid-area: author-name;
 }
 
+.advertisements h3,
+.major h3,
+.editors-pick-entry h3,
+.featured-slideshows-entry h3,
+.in-the-magazine-entry h3,
+.newsletter h3,
+.subscribe h3,
+.top-story h3 {
+  margin-top: 10px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
