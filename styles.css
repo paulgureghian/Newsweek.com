@@ -141,7 +141,6 @@ h6 {
 .featured-stories h2,
 .latest-news h2,
 .more-stories h2,
-.opinion h2,
 .top-story h2 {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -169,8 +168,39 @@ h6 {
   padding-bottom: 11px;
 }
 
+.opinion h2 a {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  margin-bottom: 11px;
+  margin-top: 11px;
+  color: black;
+  position: relative;
+}
+
+.opinion h2 a:hover {
+  text-decoration: none;
+}
+
 .opinion-entry {
-  
+  align-items: center;
+  display: grid;
+  grid-gap: 6px 6px;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "portrait headline" "author-name author-name";  
+}
+
+.opinion-entry picture {
+  grid-area: portrait;
+}
+
+.opinion-entry h3 {
+  grid-area: headline;
+}
+
+.opinion-entry .author-name {
+  grid-area: author-name;
 }
 
 .page-header {
