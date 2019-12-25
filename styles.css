@@ -100,6 +100,17 @@ h6 {
   color: #f72210;
 }
 
+.opinion h2 a {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  margin-bottom: 11px;
+  margin-top: 11px;
+  color: black;
+  position: relative;
+}
+
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -168,17 +179,6 @@ h6 {
   padding-bottom: 11px;
 }
 
-.opinion h2 a {
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 11px;
-  padding-top: 11px;
-  margin-bottom: 11px;
-  margin-top: 11px;
-  color: black;
-  position: relative;
-}
-
 .opinion h2 a:hover {
   text-decoration: none;
 }
@@ -188,7 +188,7 @@ h6 {
   display: grid;
   grid-gap: 6px 6px;
   grid-template-columns: auto 1fr;
-  grid-template-areas: "portrait headline" "author-name author-name";  
+  grid-template-areas: "portrait headline" "author-name author-name";
 }
 
 .opinion-entry picture {
