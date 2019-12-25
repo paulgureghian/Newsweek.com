@@ -162,6 +162,13 @@ h6 {
   text-transform: none;
 }
 
+.subscribe h2, 
+.newsletter h2 {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  padding-bottom: 11px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
