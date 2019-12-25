@@ -100,15 +100,6 @@ h6 {
   color: #f72210;
 }
 
-.united-states h2 a:hover,
-.world h2 a:hover,
-.business h2 a:hover,
-.tech-and-science h2 a:hover,
-.culture h2 a:hover,
-.sports h2 a:hover {
-  text-decoration: none;
-}
-
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -116,6 +107,15 @@ h6 {
   padding-right: 6px;
   margin-right: 6px;
   margin-bottom: 6px;
+}
+
+.united-states h2 a:hover,
+.world h2 a:hover,
+.business h2 a:hover,
+.tech-and-science h2 a:hover,
+.culture h2 a:hover,
+.sports h2 a:hover {
+  text-decoration: none;
 }
 
 .picture-frame-overlay a:hover {
