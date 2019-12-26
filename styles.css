@@ -232,6 +232,11 @@ h6 {
   text-decoration: none;
 }
 
+.culture-and-travel-entry .tags a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
