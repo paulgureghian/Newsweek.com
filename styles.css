@@ -133,6 +133,11 @@ h6 {
   text-decoration: underline red;
 }
 
+.in-the-magazine .picture-frame-overlay a {
+  color: white;
+  background-color: red;
+}
+
 .united-states h2 a:hover,
 .world h2 a:hover,
 .business h2 a:hover,
