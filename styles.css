@@ -416,3 +416,12 @@ h6 {
   height: 228px;
   background: url(images/covers_thumbnails_2.jpg);
 }
+
+.footer .menu li {
+  padding: 4px 10px 4px 10px;
+}
+
+.line-below {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
