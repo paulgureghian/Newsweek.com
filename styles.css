@@ -338,10 +338,16 @@ h6 {
 }
 
 .main-navigator li {
+  flex-grow: 1;
   list-style: none;
   border-right: 1px solid #ddd;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 10px;
   font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .magnifying-glass-icon {
