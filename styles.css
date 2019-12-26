@@ -43,7 +43,7 @@ body {
   color: red;
 }
 
-.focus a {
+.focus:link {
   color: white;
   background-color: red;
 }
