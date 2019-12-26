@@ -238,6 +238,7 @@ h6 {
 }
 
 .culture-and-travel-entry .tags a:hover {
+  text-decoration: none;
   background-color: #272727;
   color: #c2d4d7;
 }
