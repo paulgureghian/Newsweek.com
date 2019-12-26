@@ -129,6 +129,10 @@ h6 {
   text-decoration: none;
 }
 
+.in-the-magazine h3 a:hover {
+  text-decoration: underline red;
+}
+
 .united-states h2 a:hover,
 .world h2 a:hover,
 .business h2 a:hover,
