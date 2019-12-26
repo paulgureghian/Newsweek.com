@@ -262,6 +262,12 @@ h6 {
   overflow: hidden;
 }
 
+.in-the-magazine .tags {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
