@@ -215,6 +215,18 @@ h6 {
   margin-top: 10px;
 }
 
+.opinion-entry h3,
+.latest-news-entry h3,
+.more-stories-entry h3,
+.minor .united-states-entry h3,
+.minor .world-entry h3,
+.minor .business-entry h3,
+.minor .tech-and-science-entry h3,
+.minor .culture-entry h3,
+.minor .sports-entry h3 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
