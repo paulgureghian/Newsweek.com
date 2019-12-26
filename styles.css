@@ -125,6 +125,10 @@ h6 {
   text-decoration: none;
 }
 
+.in-the-magazine a:hover {
+  text-decoration: none;
+}
+
 .united-states h2 a:hover,
 .world h2 a:hover,
 .business h2 a:hover,
@@ -277,10 +281,6 @@ h6 {
 
 .in-the-magazine .tags .secondary-tag {
   color: #f72210;
-}
-
-.in-the-magazine a:hover {
-  text-decoration: none;
 }
 
 .page-header {
