@@ -243,6 +243,16 @@ h6 {
   color: #c2d4d7;
 }
 
+.minor .united-states-entry h3 a:hover,
+.minor .world-entry h3 a:hover,
+.minor .business-entry h3 a:hover,
+.minor .tech-and-science-entry h3 a:hover,
+.minor .culture-entry h3 a:hover,
+.minor .sports-entry h3 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
