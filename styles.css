@@ -253,6 +253,15 @@ h6 {
   text-decoration: none;
 }
 
+.latest-news-entry {
+  display: grid;
+  grid-column-gap: 7px;
+  grid-template-columns: 1fr 2fr;
+  justify-content: start;
+  align-items: start;
+  overflow: hidden;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
