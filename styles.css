@@ -44,6 +44,11 @@ body {
 }
 
 .focus:link {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  padding: 8px 15px 9px 15px;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
   color: white;
   background-color: red;
 }
