@@ -275,6 +275,10 @@ h6 {
   padding: 7px;
 }
 
+.in-the-magazine .tags .secondary-tag {
+  color: #f72210;
+}
+
 .page-header {
   color: white;
   border-bottom: 2px solid gray;
