@@ -440,4 +440,9 @@ h6 {
 
 .category {
   color: #3581f4;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 58px;
+  padding-bottom: 9px;
 }
