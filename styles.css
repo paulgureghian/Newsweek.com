@@ -141,10 +141,6 @@ h6 {
   color: black;
 }
 
-.featured-slideshows h2 a:hover {
-  text-decoration: none;
-}
-
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -160,6 +156,10 @@ h6 {
 }
 
 .in-the-magazine a:hover {
+  text-decoration: none;
+}
+
+.featured-slideshows h2 a:hover {
   text-decoration: none;
 }
 
