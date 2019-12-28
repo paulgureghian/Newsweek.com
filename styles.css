@@ -148,6 +148,48 @@ h6 {
   font-weight: bold;
 }
 
+.us_1 h3 a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.world_1 h3 a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.business_1 h3 a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.tech_and_science_1 h3 a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.culture_1 h3 a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.sports_1 h3 a {
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -523,46 +565,4 @@ h6 {
   position: absolute;
   text-align: center;
   display: block;
-}
-
-.us_1 h3 a {
-  font-size: 22px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-}
-
-.world_1 h3 a {
-  font-size: 22px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-}
-
-.business_1 h3 a {
-  font-size: 22px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-}
-
-.tech_and_science_1 h3 a {
-  font-size: 22px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-}
-
-.culture_1 h3 a {
-  font-size: 22px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-}
-
-.sports_1 h3 a {
-  font-size: 22px;
-  line-height: 22px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
 }
