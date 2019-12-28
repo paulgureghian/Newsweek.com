@@ -500,3 +500,13 @@ h6 {
   border-top: 1px solid #d9d9d9;
   margin-bottom: 20px;
 }
+
+.featured-slideshows h2 a {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.featured-slideshows h2 a:hover {
+  text-decoration: none;
+}
