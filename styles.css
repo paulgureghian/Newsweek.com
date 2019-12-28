@@ -135,6 +135,16 @@ h6 {
   font-weight: bold;
 }
 
+.featured-slideshows h2 a {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.featured-slideshows h2 a:hover {
+  text-decoration: none;
+}
+
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -499,14 +509,4 @@ h6 {
 .featured-slideshows {
   border-top: 1px solid #d9d9d9;
   margin-bottom: 20px;
-}
-
-.featured-slideshows h2 a {
-  font: bold 19px/19px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  color: black;
-}
-
-.featured-slideshows h2 a:hover {
-  text-decoration: none;
 }
