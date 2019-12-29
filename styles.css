@@ -648,3 +648,23 @@ h6 {
 .genericon:hover {
   text-decoration: none;
 }
+
+.menu {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+  color: grey;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #000;
+}
