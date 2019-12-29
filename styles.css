@@ -547,6 +547,10 @@ h6 {
   background: url(images/covers_thumbnails_2.jpg);
 }
 
+.menu li {
+  border-right: 1px solid #d9d9d9;
+}
+
 .footer .menu li {
   padding: 4px 10px 4px 10px;
 }
@@ -666,8 +670,4 @@ h6 {
   font-size: 14px;
   line-height: 15px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.menu li {
-  border-right: 1px solid #d9d9d9;
 }
