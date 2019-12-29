@@ -632,3 +632,20 @@ h6 {
 .footer {
   border-top: 1px solid #d9d9d9;
 }
+
+.genericon {
+  line-height: 24px;
+  font-size: 26px;
+  text-align: center;
+  display: block;
+  font-family: "Genericons";
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 15px;
+  color: #d9d9d9
+}
+
+.genericon:hover {
+  text-decoration: none;
+}
