@@ -690,3 +690,17 @@ h6 {
 .latest-news {
   margin-bottom: 70px;
 }
+
+.sign_up_newsletter {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.newsletter-subscription-dialog-box {
+  background-color: #f4f5f6;
+  margin-top: 20px;
+}
