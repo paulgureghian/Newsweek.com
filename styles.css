@@ -209,6 +209,12 @@ h6 {
   font-weight: bold;
 }
 
+.latest-news h2 a {
+  color: #d9d9d9;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
 .culture-and-travel-entry .tags a {
   display: inline-block;
   background-color: #c2d4d7;
@@ -387,6 +393,10 @@ h6 {
 .main-navigator li a:hover {
   text-decoration: none;
   color: red;
+}
+
+.latest-news h2 a:hover {
+  text-decoration: none;
 }
 
 .culture-and-travel-entry .tags a:hover {
@@ -675,14 +685,4 @@ h6 {
   font-size: 14px;
   line-height: 15px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.latest-news h2 a {
-  color: #d9d9d9;
-  font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-}
-
-.latest-news h2 a:hover {
-  text-decoration: none;
 }
