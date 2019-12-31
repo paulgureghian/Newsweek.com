@@ -704,3 +704,29 @@ h6 {
   background-color: #f4f5f6;
   margin-top: 20px;
 }
+
+.signup_lnk {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  background-color: #666;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.signup_lnk:hover {
+  text-decoration: none;
+  color: white;
+  background-color: lightgray;
+}
+
+.preferences_lnk {
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed", sans-serif;
+}
+
+.preferences_lnk:hover {
+  text-decoration: none;
+  color: #333;
+}
