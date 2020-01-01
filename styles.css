@@ -733,3 +733,8 @@ h6 {
 .editions {
   float: left;
 }
+
+.more-stories {
+  position: sticky;
+  top: 0;
+}
