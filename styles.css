@@ -729,3 +729,7 @@ h6 {
   text-decoration: none;
   color: #333;
 }
+
+.editions {
+  float: left;
+}
