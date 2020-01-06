@@ -747,3 +747,9 @@ h6 {
   position: sticky;
   top: 0;
 }
+
+#hamburger-button {
+  background: transparent;
+  color: white;
+  margin-left: 10px;
+  }
