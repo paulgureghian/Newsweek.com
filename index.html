@@ -29,21 +29,23 @@
 
   <body>
     <header class="page-header mb-4 header-top">
-      <div
-        class="header-top d-flex flex-row justify-content-around align-items-center w-100"
-      >
-        <time datetime="2019-10-31" class="d-none d-lg-inline-block"
-          >Thu, Oct 31, 2019</time
+      <div class="container">
+        <div
+          class="header-top d-flex flex-row justify-content-around align-items-center w-100"
         >
-        <a href="#"><span class="newsweek-white-banner brand"></span></a>
-        <div class="d-flex align-items-center">
-          <a href="#" class="lk lk-2">SIGN IN</a>
-          <a href="#" class="lk lk-3">SUBSCRIBE ></a>
-          <button
-            type="button"
-            id="hamburger-button"
-            class="d-lg-none genericon genericon-menu"
-          ></button>
+          <time datetime="2019-10-31" class="d-none d-lg-inline-block"
+            >Thu, Oct 31, 2019</time
+          >
+          <a href="#"><span class="newsweek-white-banner brand"></span></a>
+          <div class="d-flex align-items-center">
+            <a href="#" class="lk lk-2">SIGN IN</a>
+            <a href="#" class="lk lk-3">SUBSCRIBE ></a>
+            <button
+              type="button"
+              id="hamburger-button"
+              class="d-lg-none genericon genericon-menu"
+            ></button>
+          </div>
         </div>
       </div>
 
@@ -51,29 +53,31 @@
         class="main-navigator w-100 d-none d-lg-flex flex-row justify-content-around align-content-center sticky-top navbar navbar-expand-lg
                navbar-collapse h-auto w-auto"
       >
-        <form
-          action="/search"
-          method="GET"
-          class="d-flex flex-row justify-content-start align-items-center order-2"
-        >
-          <input type="text" name="query" placeholder="Search" />
-          <button
-            type="submit"
-            class="magnifying-glass-icon"
-            title="Search"
-          ></button>
-        </form>
-        <ul class="w-100 d-flex flex-row justify-content-around">
-          <li><a href="#">U.S.</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Tech & Science</a></li>
-          <li><a href="#">Culture</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Health</a></li>
-          <li><a href="#">Opinion</a></li>
-          <li><a href="#">Vantage</a></li>
-        </ul>
+        <div class="container">
+          <form
+            action="/search"
+            method="GET"
+            class="d-flex flex-row justify-content-start align-items-center order-2"
+          >
+            <input type="text" name="query" placeholder="Search" />
+            <button
+              type="submit"
+              class="magnifying-glass-icon"
+              title="Search"
+            ></button>
+          </form>
+          <ul class="w-100 d-flex flex-row justify-content-around">
+            <li><a href="#">U.S.</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Tech & Science</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Opinion</a></li>
+            <li><a href="#">Vantage</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
