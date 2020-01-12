@@ -755,8 +755,26 @@ h6 {
   margin-bottom: 20px;
 }
 
-@media (min-width: 360px) {
+@media screen and (min-width: 576px) {
   .container {
-    max-width: 360px;
+    max-width: 544px;   
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
