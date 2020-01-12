@@ -757,5 +757,6 @@ h6 {
 
 @media (min-width: 360px) {
   .container {
-    max-width: 360px; } }
-  
+    max-width: 360px;
+  }
+}
