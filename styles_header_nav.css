@@ -58,12 +58,12 @@ header {
 }
 
 .container {
-    max-width: 1310px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .page-header .container {
+.page-header .container {
   position: relative;
 }
 
@@ -78,10 +78,10 @@ header {
     height: 95px;
     padding: 20px 10px 15px;
   }
-  
+
   .page-header .header-top {
     background-color: #f72210;
-  } 
+  }
 }
 
 .header-top {
@@ -138,14 +138,14 @@ div {
 }
 
 .lk-2 {
-    position: relative;
-    font: bold 14px/14px "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 6px 3px;
-  }
+  position: relative;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 3px;
+}
 
-  .page-header .lk-2 {
+.page-header .lk-2 {
   color: white;
 }
 
@@ -191,6 +191,10 @@ a {
 }
 
 /* HEADER MIDDLE 'NEWSWEEK.com LINK' */
+.header-middle {
+    padding: 15px;
+  }
+
 @media screen and (min-width: 992px) {
   .header-middle {
     transform: translate(-50%, 0);
@@ -200,19 +204,15 @@ a {
     left: 50%;
     padding-top: 10px;
     padding-bottom: 10px;
-      }
-    
+  }
+   
   .page-header .header-middle {
     background-color: #f72210;
-  } 
+  }
 }
 
 .page-header .header-middle {
   background-color: #f72210;
-}
-
-.header-middle {
-  padding: 15px;
 }
 
 @media screen and (min-width: 992px) {
@@ -273,16 +273,16 @@ a {
 }
 
 /* HEADER BOTTOM 'NAVBAR' */
+.header-bottom {
+    position: relative;
+    display: block;
+  }
+
 @media screen and (min-width: 992px) {
   .page-header .header-bottom {
     padding-right: 160px;
   }
-
-  .header-bottom {
-    position: relative;
-    display: block;
-  }
-  
+ 
   .page-header .header-bottom::before {
     width: 66px;
     position: absolute;
@@ -299,6 +299,12 @@ a {
     display: flex;
   }
 
+  ul .page-nav li {
+    flex-grow: 1;
+    text-align: center;
+    border-left-style: solid;
+  }
+
   ul .page-nav {
     display: flex;
     justify-content: center;
@@ -308,29 +314,23 @@ a {
   ul .page-nav li:first-child {
     border-left-width: 0;
   }
-   
+  
   .page-header ul .page-nav li {
-    border-left-color: #d9d9d9 ;
+    border-left-color: #d9d9d9;
   }
-   
-  ul .page-nav li {
-    flex-grow: 1;
-    text-align: center;
-    border-left-style: solid;
-  } 
 }
+
+.header-bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    z-index: 1;
+  }
 
 .page-header .header-bottom {
   background-color: white;
   border-bottom-color: #f4f5f6;
-}
-
-.header-bottom {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  z-index: 1;
 }
 
 nav {
@@ -363,5 +363,4 @@ ul li .leaf {
   content: "";
   display: table;
 }
-
 /* END OF FILE */
