@@ -192,8 +192,8 @@ a {
 
 /* HEADER MIDDLE 'NEWSWEEK.com LINK' */
 .header-middle {
-    padding: 15px;
-  }
+  padding: 15px;
+}
 
 @media screen and (min-width: 992px) {
   .header-middle {
@@ -205,7 +205,7 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-   
+ 
   .page-header .header-middle {
     background-color: #f72210;
   }
@@ -273,60 +273,60 @@ a {
 }
 
 /* HEADER BOTTOM 'NAVBAR' */
-.header-bottom {
-    position: relative;
-    display: block;
-  }
-
 @media screen and (min-width: 992px) {
-  .page-header .header-bottom {
-    padding-right: 160px;
-  }
- 
-  .page-header .header-bottom::before {
-    width: 66px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: "";
-    display: block;
-    background-color: #f72210;
-    border-left: 12px solid white;
-    border-top: 13px solid #f72210;
-  }
+ .header-bottom {
+   position: relative;
+   display: block;
+ }
 
-  .flex-md {
-    display: flex;
-  }
+ .page-header .header-bottom {
+  padding-right: 160px;
+ }
+  
+ .page-header .header-bottom::before {
+   width: 66px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   content: "";
+   display: block;
+   background-color: #f72210;
+   border-left: 12px solid white;
+   border-top: 13px solid #f72210;
+ }
 
-  ul .page-nav li {
-    flex-grow: 1;
-    text-align: center;
-    border-left-style: solid;
-  }
+ .flex-md {
+   display: flex;
+ }
+
+ ul .page-nav li {
+  flex-grow: 1;
+  text-align: center;
+  border-left-style: solid;
+ }
 
   ul .page-nav {
     display: flex;
     justify-content: center;
     width: 100%;
-  }
+ }
 
   ul .page-nav li:first-child {
     border-left-width: 0;
-  }
-  
+ }
+ 
   .page-header ul .page-nav li {
     border-left-color: #d9d9d9;
   }
 }
 
 .header-bottom {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    z-index: 1;
-  }
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+}
 
 .page-header .header-bottom {
   background-color: white;
@@ -363,4 +363,3 @@ ul li .leaf {
   content: "";
   display: table;
 }
-/* END OF FILE */
