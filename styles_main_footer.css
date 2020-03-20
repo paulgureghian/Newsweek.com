@@ -1,13 +1,28 @@
+/* START OF CSS FILE
+   ADDS STYLE TO THE MAIN & FOOTER */
+
+/* IMPORT GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+/* IMPORT GENERICONS FONT */
+@font-face {
+  font-family: "Genericons";
+  src: url("./Genericons.eot?") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* UNIVERSAL SELECTOR */
 * {
   box-sizing: border-box;
-  border: 0 none;
-  list-style: none outside none;
-  margin: 0;
-  outline: 0 none;
-  padding: 0;
 }
+
+/* BODY */
+body {
+  background-color: #f4f5f6;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 
 a {
   color: inherit;
@@ -32,11 +47,6 @@ body {
   color: #333;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.main-navigator a {
-  color: black;
-  font-weight: bold;
 }
 
 .picture-frame-overlay a {
@@ -398,11 +408,6 @@ h6 {
   text-decoration: none;
 }
 
-.main-navigator li a:hover {
-  text-decoration: none;
-  color: red;
-}
-
 .latest-news h2 a:hover {
   text-decoration: none;
 }
@@ -449,64 +454,11 @@ h6 {
   color: #f72210;
 }
 
-.page-header {
-  color: white;
-  border-bottom: 2px solid gray;
-  background-color: red;
-}
-
 .lk {
   font-weight: bold;
   padding: 10px 8px 10px 8px;
 }
-
-.page-header .lk {
-  text-decoration: none;
-}
-
-.page-header .lk-2 {
-  color: white;
-  font-weight: bold;
-  padding: 10px 8px;
-}
-
-.page-header .lk-3 {
-  color: red;
-  padding: 4px 8px;
-  font-weight: bold;
-  background-color: white;
-}
-
-.newsweek-white-banner {
-  display: inline-block;
-  width: 396px;
-  height: 60px;
-  background: url(images/newsweek-white.svg);
-}
-
-.main-navigator {
-  background-color: white;
-}
-
-.main-navigator li {
-  flex-grow: 1;
-  list-style: none;
-  border-right: 1px solid #ddd;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
-  font-size: 21px;
-  line-height: 24px;
-  font-weight: bold;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.magnifying-glass-icon {
-  width: 28px;
-  height: 28px;
-  background: url(images/magnifying-glass.svg);
-}
-
+  
 .picture-frame {
   position: relative;
 }
@@ -746,35 +698,4 @@ h6 {
 .more-stories {
   position: sticky;
   top: 0;
-}
-
-#hamburger-button {
-  background: transparent;
-  color: white;
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-@media screen and (min-width: 576px) {
-  .container {
-    max-width: 544px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .container {
-    max-width: 940px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
 }
