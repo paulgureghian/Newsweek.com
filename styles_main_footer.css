@@ -4,13 +4,8 @@
 /* IMPORT GOOGLE FONT */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
-/* IMPORT GENERICONS FONT */
-@font-face {
-  font-family: "Genericons";
-  src: url("./Genericons.eot?") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
-}
+/* IMPORT GENERICONS */
+@import "genericons/genericons.css";
 
 /* UNIVERSAL SELECTOR */
 * {
@@ -21,6 +16,11 @@
 body {
   background-color: #f4f5f6;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* MAIN */
+main {
+  background-color: white;
 }
 
 a {
