@@ -55,18 +55,18 @@ header .logo svg {
 }
 
 #header_subscribe_link:hover {
-color: red;
-background-color: white;
+  color: red;
+  background-color: white;
 }
 
-/* NAVBAR */ 
+/* NAVBAR */
+.nav_links {
+  color: black;
+}
+
 .nav_links:hover {
   text-decoration: none;
   color: red;
-}
-
-.nav_links {
-  color: black;
 }
 
 .nav-bar {
@@ -105,7 +105,7 @@ header nav #search-input {
   margin-right: 66px;
 }
 
-.burger-icon .fas  {
+.burger-icon .fas {
   position: relative;
   top: 4px;
   font-size: 25px;
