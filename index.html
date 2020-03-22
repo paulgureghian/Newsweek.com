@@ -107,7 +107,7 @@
     <!--MAIN CONTENT-->
     <main>
       <!--FEATURED STORIES SECTION-->
-      <div class="container-fluid">
+      <div class="container-fluid ">
         <div class="row">
           <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1">
             <section class="featured-stories">
@@ -1265,6 +1265,7 @@
                         <a href="#">
                           <picture>
                             <img
+                              id="magazine_7" 
                               src="images/magazine_7.webp"
                               alt="In The Magazine"
                             />
@@ -2656,13 +2657,16 @@
     <!--FOOTER-->
     <footer class="footer">
       <div class="container-fluid">
-        <div class="row line-below">
-          <div class="col-12 col-md-9 d-flex flex-row align-items-end">
-            <a href="#" title="Newsweek"
-              ><span class="newsweek-orange-footer"></span
-            ></a>
-            <span class="copyright">&copy; 2019 Newsweek</span>
-          </div>
+                  
+    <!--FOOTER TOP-->
+    <!--FOOTER NEWSWEEK BRAND-->
+    <div class="row line-below">
+      <div class="col-12 col-md-9 d-flex flex-row align-items-end">
+        <a href="#" title="Newsweek"><span class="newsweek-orange-footer"></span></a>                     
+          <span class="copyright">&copy; 2019 Newsweek</span>
+      </div>
+
+          <!--SOCIAL MEDIA LINKS-->
           <div class="col-12 col-md-3">
             <ul class="social d-flex flex-row">
               <li>
@@ -2704,41 +2708,49 @@
           </div>
         </div>
 
+        <!--FOOTER BOTTOM-->         
+        <!--FOOTER EDITIONS LINKS-->
         <div class="row">
-          <div class="col-12 col-lg-9">
-            <ul class="menu d-flex flex-row flex-wrap">
-              <li class="first leaf"><a href="#">About Us</a></li>
-              <li class="leaf"><a href="#">Corrections</a></li>
-              <li class="leaf"><a href="#">Contact Us</a></li>
-              <li class="leaf"><a href="#">Editorial Guidelines</a></li>
-              <li class="leaf"><a href="#">Advertise</a></li>
-              <li class="leaf"><a href="#">Copyright</a></li>
-              <li class="leaf"><a href="#">Terms & Conditions</a></li>
-              <li class="leaf"><a href="#">Privacy Policy</a></li>
-              <li class="leaf"><a href="#">Cookie Policy</a></li>
-              <li class="leaf"><a href="#">Terms of Sale</a></li>
-              <li class="leaf"><a href="#">Archive</a></li>
-              <li class="last leaf"><a href="#">Announcements</a></li>
-              <li id="consent">
-                <a href="#" class="change-consent">Consent preferences</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-12 col-lg-3">
-            <label class="editions">
-              <strong>Editions:</strong>
-            </label>
-            <ul class="menu d-flex flex-row flex-wrap">
-              <li class="first leaf"><a href="#">U.S. Edition</a></li>
-              <li class="leaf"><a href="#">日本</a></li>
-              <li class="leaf"><a href="#">한국</a></li>
-              <li class="leaf"><a href="#">Pakistan</a></li>
-              <li class="leaf"><a href="#">Polska</a></li>
-              <li class="leaf"><a href="#">Romania</a></li>
-            </ul>
-          </div>
+        <div class="col-12 col-lg-3">
+         <div id="editions_links">
+          <label class="editions">
+            <strong>Editions:</strong>
+          </label>
+          <ul class="editions_links d-flex flex-row flex-wrap">
+            <li class="first leaf"><a href="#">U.S. Edition</a></li>
+            <li class="leaf"><a href="#">日本</a></li>
+            <li class="leaf"><a href="#">한국</a></li>
+            <li class="leaf"><a href="#">Pakistan</a></li>
+            <li class="leaf"><a href="#">Polska</a></li>
+            <li class="leaf"><a href="#">Romania</a></li>
+          </ul>
+         </div>
         </div>
+        </div>
+          
+        <!--FOOTER MENU LINKS -->
+        <div class="row">
+        <div class="col-12 col-lg-9">
+         <div id="menu_links">
+          <ul class="menu_links d-flex flex-row flex-wrap">
+            <li class="first leaf"><a href="#">About Us</a></li>
+            <li class="leaf"><a href="#">Corrections</a></li>
+            <li class="leaf"><a href="#">Contact Us</a></li>
+            <li class="leaf"><a href="#">Editorial Guidelines</a></li>
+            <li class="leaf"><a href="#">Advertise</a></li>
+            <li class="leaf"><a href="#">Copyright</a></li>
+            <li class="leaf"><a href="#">Terms & Conditions</a></li>
+            <li class="leaf"><a href="#">Privacy Policy</a></li>
+            <li class="leaf"><a href="#">Cookie Policy</a></li>
+            <li class="leaf"><a href="#">Terms of Sale</a></li>
+            <li class="leaf"><a href="#">Archive</a></li>
+            <li class="last leaf"><a href="#">Announcements</a></li>
+            <li id="consent"><a href="#" class="change-consent">Consent preferences</a></li> 
+          </ul>
+         </div>
+        </div>
+        </div>  
+           
       </div>
     </footer>
 
