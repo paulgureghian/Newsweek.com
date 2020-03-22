@@ -10,6 +10,7 @@
 /* UNIVERSAL SELECTOR  */
 * {
   box-sizing: border-box;
+  list-style: none;
 }
 
 /* BODY */
@@ -118,10 +119,4 @@ header nav #search-input {
   header .logo svg {
     display: none;
   }
-}
-
-
-
-main {
-  margin-top: 133px;
 }
