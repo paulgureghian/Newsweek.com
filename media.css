@@ -1,0 +1,46 @@
+/* START OF CSS FILE
+   ADDS STYLE TO DIFFERENT MEDIA */
+
+/* IMPORT GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+/* IMPORT GENERICONS */
+@import "genericons/genericons.css";
+
+/* UNIVERSAL SELECTOR  */
+* {
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  /* BODY */
+  body {
+    background-color: #f4f5f6;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  /* RWD - MEDIA QUERIES */
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  
+    h3 {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    header .logo svg {
+      width: 140px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    header .logo svg {
+      display: none;
+    }
+  }
+  
