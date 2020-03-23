@@ -20,7 +20,7 @@ body {
 }
 
 /* RWD - MEDIA QUERIES */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   body {
     font-size: 15px;
     line-height: 20px;
@@ -32,13 +32,13 @@ body {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   header .logo svg {
     width: 140px;
   }
 }
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   header .logo svg {
     display: none;
   }
