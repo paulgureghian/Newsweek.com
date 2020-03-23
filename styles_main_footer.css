@@ -544,18 +544,6 @@ h6 {
   border-bottom: 1px solid #ddd;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  h3 {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-
 .category {
   color: #3581f4;
   font: bold 17px/16px "Roboto Condensed", sans-serif;
