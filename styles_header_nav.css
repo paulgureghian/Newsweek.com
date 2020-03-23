@@ -107,16 +107,3 @@ header nav #search-input {
   font-size: 25px;
   cursor: pointer;
 }
-
-/* MEDIA QUERIES / BREAKPOINTS */
-@media (max-width: 991px) {
-  header .logo svg {
-    width: 140px;
-  }
-}
-
-@media (max-width: 425px) {
-  header .logo svg {
-    display: none;
-  }
-}
