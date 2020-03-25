@@ -68,9 +68,9 @@ header .logo svg {
   width: 24px;
   height: 24px;
   margin: 0;
-  font-weight: bold;
   font: 15px/34px "Roboto Condensed", sans-serif;
-}
+  font-weight: bold;
+}  
 
 /* NAVBAR */
 .nav_links {
