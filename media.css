@@ -19,26 +19,63 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* RWD - MEDIA QUERIES */
 
-/* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {
+
+
+
+
+
+
+/* XS DEVICES */
+@media only screen and (max-width: 480px) and (max-width:480px) {
   header .logo svg {
     display: none;
   }
+
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  body > * {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .minor {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .culture-and-travel-entry picture img {
+    width: 100%;
+  }
 }
 
-/* Small devices (portrait tablets and large phones, 481px and up) */
-@media only screen and (min-width: 481px) {
+/* SMALL DEVICES */
+@media only screen and (min-width: 481px) and (max-width:767px) {
+  .minor {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
 
+  .culture-and-travel-entry picture img {
+    width: 100%;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* MEDIUM DEVICES */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   header .logo svg {
     width: 140px;
   }
 
+  main {
+    margin-top: 133px;
+  }
+  
   body {
     font-size: 15px;
     line-height: 20px;
@@ -48,14 +85,28 @@ body {
     font-size: 24px;
     line-height: 24px;
   }
+  
+  .cover picture img {
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+  }
+
+  .in-the-magazine picture img {
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+  } 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* LARGE DEVICES */
+@media only screen and (min-width: 992px) and (max-width: 1199) {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* XL DEVICES */
 @media only screen and (min-width: 1200px) {
 
 }
