@@ -19,15 +19,8 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
-
-
-
-
-
-
 /* XS DEVICES */
-@media only screen and (max-width: 480px) and (max-width:480px) {
+@media only screen and (max-width: 480px) {
   header .logo svg {
     display: none;
   }
