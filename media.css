@@ -47,7 +47,7 @@ body {
 }
 
 /* SMALL DEVICES */
-@media only screen and (min-width: 481px) and (max-width:767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .minor {
     width: 100%;
     height: auto;
@@ -68,7 +68,7 @@ body {
   main {
     margin-top: 133px;
   }
-  
+ 
   body {
     font-size: 15px;
     line-height: 20px;
@@ -78,7 +78,7 @@ body {
     font-size: 24px;
     line-height: 24px;
   }
-  
+ 
   .cover picture img {
     top: 0;
     left: 50%;
@@ -91,7 +91,7 @@ body {
     left: 50%;
     width: auto;
     height: 100%;
-  } 
+  }
 }
 
 /* LARGE DEVICES */
