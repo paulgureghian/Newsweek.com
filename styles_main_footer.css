@@ -598,7 +598,7 @@ h6 {
 }
 
 .subscribe {
-  background-color: gray;
+  background-color: #f4f5f6;
   margin-bottom: 30px;
 }
 
@@ -728,4 +728,8 @@ h6 {
 
 #menu_links {
   width: 1350px;
+}
+
+.advertisements {
+  overflow-y: hidden;
 }
