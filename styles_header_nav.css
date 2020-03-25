@@ -55,6 +55,23 @@ header .logo svg {
   background-color: white;
 }
 
+/* WEATHER WIDGET */
+#weather_widget {
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
+  vertical-align: text-top ;
+}
+
+#weather_widget .weather_icon {
+  vertical-align: text-top;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  font-weight: bold;
+  font: 15px/34px "Roboto Condensed",sans-serif;
+}
+
 /* NAVBAR */
 .nav_links {
   color: black;
