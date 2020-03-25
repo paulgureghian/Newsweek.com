@@ -29,7 +29,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
   }
-  
+
   body > * {
     width: 100%;
     overflow-x: hidden;
@@ -68,7 +68,7 @@ body {
   main {
     margin-top: 133px;
   }
- 
+
   body {
     font-size: 15px;
     line-height: 20px;
@@ -78,7 +78,7 @@ body {
     font-size: 24px;
     line-height: 24px;
   }
- 
+
   .cover picture img {
     top: 0;
     left: 50%;
