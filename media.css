@@ -111,19 +111,3 @@ body {
   }
 }
 
-/* LARGE DEVICES */
-@media only screen and (min-width: 992px) and (max-width: 1199) {
-  body {
-    width: 100vw;
-    overflow-x: hidden;
-  }
-}
-
-/* XL DEVICES */
-@media only screen and (min-width: 1200px) {
-  body {
-    width: 100vw;
-    overflow-x: hidden;
-  }
-}
-
