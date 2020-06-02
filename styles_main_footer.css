@@ -20,7 +20,8 @@ body {
 }
 
 /* MAIN */
-main {
+main > * {
+  width: 100%;
   background-color: white;
   padding-top: 20px;
   width: 1350px;
@@ -616,12 +617,14 @@ h6 {
 
 /* FOOTER */
 .footer {
+  width: 100%;
   border-top: 1px solid #d9d9d9;
   background-color: white;
   width: 1350px;
   margin-left: auto;
   margin-right: auto;
   height: auto;
+  overflow-x: hidden;
 }
 
 .genericon {
@@ -732,4 +735,14 @@ h6 {
 
 .advertisements {
   overflow-y: hidden;
+}
+
+footer > * {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.social {
+  margin-right: 5px;
+  padding-right: 5px;
 }
